@@ -1,0 +1,10 @@
+options:
+  dynamic:
+    resolutions:
+      "express/lib/view.js": []
+
+packages:
+  api:
+    output: ./api.zip
+    trace:
+      - ./handler.js
